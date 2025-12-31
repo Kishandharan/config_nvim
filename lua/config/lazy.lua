@@ -25,7 +25,6 @@ require("lazy").setup({
         colorscheme = "nightfly",
       },
     },
-    { import = "plugins" },
   },
   defaults = {
     lazy = false,
