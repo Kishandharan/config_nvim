@@ -17,6 +17,7 @@ vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
   spec = {
     { "bluz71/vim-nightfly-colors", name = "nightfly", priority = 1000 },
+    { "stevearc/oil.nvim" },
     { "folke/which-key.nvim",       enabled = false },
     {
       "LazyVim/LazyVim",
